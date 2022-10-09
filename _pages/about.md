@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: An MRes student supervised by <a href='(http://yingzhenli.net/'>Yingzhen Li</a> at Imperial College London. Contact me with <a href='mailto:p.xie22@ic.ac.uk'>p.xie22@ic.ac.uk</a>.
 
 profile:
   align: right
