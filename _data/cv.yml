@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pengyang Xie
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2nd September 2000
     - name: Languages
-      value: English, German
+      value: Mandarin, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Research
+      institution: Imperial College London, London, United Kingdom
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Artificial Intelligence and Machine Learning.
+        - "Is self-supervised pre-training at odds with unsupervised learning?"
+    - title: Bachelor of Engineering
+      institution: Beihang University, Beijing, China
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Computer Science and Technology (Major).
+        - Applied Mathematics (Minor).
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Summer Research Intern
+      institution: Institute of Neuroscience, Chinese Academy of Sciences, China
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervised by <a href="https://scholar.google.com/citations?user=hh7zraAAAAAJ&hl=en&oi=ao">Prof. Min Xu</a>.
+        - Analyzed widefield calcium imaging data of murine models using seqCNMF, PCA, ICA, and other algorithms and extracted spatiotemporal characteristics. 
+        - Analyzed functional connectivity of cerebral ROIs, facial movement, and pupil characteristics during different sleep stages and air-puff stimuli.
+    
+    - title: Research Intern
+      institution: Institute of Computing Technology, Chinese Academy of Sciences, China
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Supervised by <a href="https://scholar.google.com/citations?hl=en&user=LC3SwhEAAAAJ">Prof. Yiqiang Chen</a>.
+        - Participated in the related work of multimodal collaborative representation. Based on five multimodal data of vision, hearing, haptic feedback, EMG, and pose, designed an online algorithm to prove that multimodal data has higher reliability than single-modal data in judging human behavior. 
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Natural Language Processing Intern
+      institution: Innovation Center for Big Data and Brain Computing, Beihang University, China
+      year: 2019-2020
       description:
+        - Supervised by <a href="https://scholar.google.com/citations?user=bjFPXksAAAAJ&hl=en&oi=ao">Prof. Richong Zhang</a>.
+        - Participated in the journal extension for Syntax Encoding with Application in Authorship Attribution, proposed a novel strategy to encode the syntax parse tree of a sentence into a learnable distributed representation
+        - Independently reproduced the experimental results of the paper on the personal computer without source code in PyTorch.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: A4 Paper Method Based English Words Memory Website
+      year: 2021
+      description:
+        - Developed an English vocabulary learning and memory website, <a href="https://jqkey.xyz/">JQKey</a>, based on the A4 Paper method, which connects the vocabs with a specific scene on an A4 size paper or screen called Word Map. Designed algorithms that recommended new words intelligently and built an online community for sharing their Word Maps with nearly 1000 users.
+        - Used Vue, echarts, and fabrics to realize the Word Map function and the user's page, and used JavaScript to realize the animation.
+    
+    - title: A compiler for the C0 programming language
+      year: 2020
+      description:
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Implemented a <a href="https://github.com/Mokoghost/BUAA_Compiler2020">compiler</a> supporting error handling for generating MIPS assembly code according to a given C0 grammar. It supports registers allocation and some optimization mechanisms, including copy propagation, simplification of multiplication and division, and modification of for-statement and while-statement.
+    
+    - title: Cloud Computing Based Personal Deep Learning Platform
+      year: 2020
+      description:
+        - Supervised by Prof. Hailong Yang.
+        - Developed an online high-throughput computing platform for deep learning based on HTCondor, a job scheduler. It utilizes computing resources rented from the Alibaba cloud. The platform encapsulates the process of creating and terminating computing instances, job operation, and feedback and refines the computing cost to a single task through a bidding strategy.
+  
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Badminton (even broke my ACL for it), hiking (there're lots of great parks in London, isn't it?), <a href="https://en.wikipedia.org/wiki/ACG_(subculture)">ACG</a>.

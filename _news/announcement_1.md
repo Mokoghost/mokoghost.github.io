@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-10-3 
 inline: true
 ---
 
-A simple inline announcement.
+Joined Yingzhen's Lab!🥳.
