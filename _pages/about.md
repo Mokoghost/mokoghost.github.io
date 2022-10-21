@@ -19,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently an MRes (Master of Research) student in Artificial Intelligence and Machine Learning at Imperial College London, supervised by [Yingzhen Li](http://yingzhenli.net/). Prior to that, I obtained my B.Eng. in Computer Science and Technology from Beihang University.
 
-Now I'm working on self-supervised learning, trying to find out what's the magic beneth the masked pre-training models.😏
+Now I'm working on self-supervised learning, trying to find out what's the magic beneath the masked pre-training models.😏
 
 I am also interested in computational neuroscience, brain-computer interface, reforcement learning and other fancy domains.🤩
